@@ -1,7 +1,7 @@
 def oxford_comma(array)
-  new_array = []
   new_array = array.pop
-  strings = new_array.join(" , ")
+  strings = array.pop.join(" , ")
+  new_string = strings << array
   
   
 end
